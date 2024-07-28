@@ -1,0 +1,12 @@
+#ifndef TRADINGEXCEL_GLOBAL_H
+#define TRADINGEXCEL_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(TRADINGEXCEL_LIBRARY)
+#define TRADINGEXCEL_EXPORT Q_DECL_EXPORT
+#else
+#define TRADINGEXCEL_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // TRADINGEXCEL_GLOBAL_H
